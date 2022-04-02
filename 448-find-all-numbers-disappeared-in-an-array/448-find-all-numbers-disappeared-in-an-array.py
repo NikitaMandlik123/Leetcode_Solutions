@@ -4,4 +4,5 @@ class Solution:
         a = set(nums2) - set(nums)
         return a
        
-        
+        # time complexity : O(n)
+        #space complexity : O(1)
