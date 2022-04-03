@@ -1,11 +1,20 @@
 class Solution:
     def construct2DArray(self, original: List[int], m: int, n: int) -> List[List[int]]:
-        if m*n != len(original):
+        arr2= []
+        if m*n!= len(original):
             return []
         
-        answer = []
-
-        for i in range(0, len(original), n):
-            answer.append(original[i:i+n])
+       
+        for i in range(0, m*n, n):
+            arr2.append(original[i:n+i])
+        return arr2
+    
+    
+    #time complexity: O(n^2)
+    #space complexity: O(n)
+                
             
-        return answer        
+            
+         
+            
+        
