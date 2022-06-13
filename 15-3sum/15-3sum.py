@@ -18,4 +18,5 @@ class Solution:
                     r = r-1
         return ret
                 
-                
+#time comp = O(n^2)
+#space comp = O(n)
