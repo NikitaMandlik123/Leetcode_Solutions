@@ -3,7 +3,7 @@ class Solution:
         nums.sort()
         ret = 0
         dif = float('inf')
-        for i in range(len(nums)-2):
+        for i in range(len(nums)-1):
             l = i+1
             r = len(nums)-1
             
