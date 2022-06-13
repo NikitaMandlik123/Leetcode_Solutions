@@ -20,3 +20,8 @@ class Solution:
                     r = r-1
                     
         return ret
+    
+    
+    
+    # TC = O(n^2)
+    # SC = O(1)
