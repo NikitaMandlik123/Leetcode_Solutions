@@ -12,4 +12,7 @@ class Solution:
             else:
                 r = r-1
         return maximum
+    
+    # TC = O(N)
+    # SC = O(1)
                 
