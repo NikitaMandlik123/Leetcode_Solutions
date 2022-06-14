@@ -22,4 +22,10 @@ class Solution:
             nums[k] = 2
             
             
+# TC = O(n)
+# SC = O(1)
+
+
+            
+            
                 
