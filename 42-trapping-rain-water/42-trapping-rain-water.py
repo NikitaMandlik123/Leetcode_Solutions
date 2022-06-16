@@ -17,3 +17,6 @@ class Solution:
                 area = area + r_max - height[r]
                 r = r-1
         return area
+    
+    # TC = O(N)
+    # SC = O(1)
