@@ -22,3 +22,7 @@ class Solution:
          
         return ret
     
+    # TC = O(N^3)
+    # SC = O(N)
+    
+    
