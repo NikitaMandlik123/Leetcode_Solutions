@@ -16,3 +16,5 @@ class Solution:
                 return True
         return False
                 
+#TC = O(N)
+#SC = O(1)
