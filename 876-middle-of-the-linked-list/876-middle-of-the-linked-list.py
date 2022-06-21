@@ -14,4 +14,5 @@ class Solution:
             return slow
         return slow.next
             
-            
+#TC = O(N)
+#SC = O(1)
