@@ -19,3 +19,6 @@ class Solution:
         else:
             return False
         
+        
+#TC = O(n)
+#SC = O(n)
