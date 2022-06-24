@@ -12,3 +12,6 @@ class Solution:
                 Olist.next = Olist.next.next
             Olist = Olist.next
         return head
+
+#TC = O(n^2)
+#SC = O(n)
