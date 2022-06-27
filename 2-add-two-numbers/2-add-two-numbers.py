@@ -18,4 +18,7 @@ class Solution:
             new = new.next
             car //= 10
         return dummy.next
+    
+#TC = O(n+m)
+#SC = O(n)
             
