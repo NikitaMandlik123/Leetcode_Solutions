@@ -17,3 +17,6 @@ class Solution:
         
         slow.next = slow.next.next
         return head
+    
+    #TC = O(n)
+    #SC = O(1)
