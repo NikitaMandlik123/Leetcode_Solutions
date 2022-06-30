@@ -20,5 +20,8 @@ class Solution:
             n = Sumofsqr(n)
         return n == 1
 
+    
+#TC = O(N)
+#SC = O(N)
         
     
