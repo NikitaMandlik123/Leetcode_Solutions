@@ -7,4 +7,8 @@ class Solution:
             missing=missing^i
         missing=missing^(i+1)
         return missing
+    
+    #TC = O(N)
+    #SC = O(1)
+    
         
