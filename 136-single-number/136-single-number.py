@@ -1,7 +1,10 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        return sum(list((set(nums)))*2)- sum(nums)
+        Sum = 0
+        for i in range(len(nums)):
+            Sum = Sum ^ nums[i]
+        return Sum
         
-        #time complexity : O(n)
-        #space complexity: O(n)
         
+#TC = O(n)
+#SC = O(1)
