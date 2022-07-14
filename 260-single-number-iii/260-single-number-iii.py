@@ -6,4 +6,7 @@ class Solution:
             if count[i]==1:
                 sol.append(i)
         return sol
+    
+    #TC = O(n)
+    #SC = O(n)
         
