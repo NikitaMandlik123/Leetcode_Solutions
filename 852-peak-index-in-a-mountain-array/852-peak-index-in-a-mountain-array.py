@@ -1,5 +1,11 @@
 class Solution:
     def peakIndexInMountainArray(self, arr: List[int]) -> int:
-        for i in range(len(arr)-1):
-            if arr[i]>arr[i+1]:
-                return i
+        l = 0
+        h = len(arr)-1
+        while(l<h):
+            mid = (l+h)//2
+            if arr[mid]<arr[mid+1]:
+                l = mid+1
+            else:
+                h =  mid
+        return l
