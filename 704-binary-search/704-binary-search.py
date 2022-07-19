@@ -12,3 +12,6 @@ class Solution:
             else:
                 h=mid
         return -1          
+    
+    #TC = O(nlogn)
+    #SC = O(1)
