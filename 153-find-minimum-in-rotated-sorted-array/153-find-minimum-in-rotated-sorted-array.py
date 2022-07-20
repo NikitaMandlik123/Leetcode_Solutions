@@ -9,4 +9,7 @@ class Solution:
             else:
                 h = mid
         return nums[l]
-                
+        
+        
+# TC = O(logn)
+#SC = O(1)
