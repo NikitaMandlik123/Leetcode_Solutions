@@ -24,3 +24,7 @@ class Solution:
                      l = mid+1
             
         return False
+    
+    
+    #TC = O(logn)
+    #SC = O(1)
