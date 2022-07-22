@@ -15,3 +15,6 @@ class Solution:
             else:
                 l = mid+1
         return False
+    
+    #TC = O(log(m+n))
+    #SC = O(1)
