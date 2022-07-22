@@ -13,3 +13,6 @@ class Solution:
                 c=c-1
         return False
             
+        
+#TC = O(logn*m)
+#SC = O(1)
