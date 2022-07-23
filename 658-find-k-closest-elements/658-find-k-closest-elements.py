@@ -13,3 +13,6 @@ class Solution:
         return arr[l:l+k]
                 
         
+        
+#TC = O(logn + k)
+#SC = O(1)
