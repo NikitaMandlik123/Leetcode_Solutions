@@ -31,6 +31,7 @@ class Solution:
                     return m
                 high = m-1
         return 0
-        
-        
+    
+    #TC = O(nlogn)
+    #SC = O(1)
         
