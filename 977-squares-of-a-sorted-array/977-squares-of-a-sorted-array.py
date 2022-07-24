@@ -15,12 +15,4 @@ class Solution:
                 l= l+1
             k=k-1
         return ret
-                
-                
-                
-                
-         
-                
         
-        
-            
