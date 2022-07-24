@@ -15,3 +15,7 @@ class Solution:
             else:
                 res[-1][-1] = max(res[-1][-1], i[-1])
         return res
+    
+    
+    #tc = O(nlogn)
+    #sc = O(n)
