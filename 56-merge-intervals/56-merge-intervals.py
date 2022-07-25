@@ -14,3 +14,7 @@ class Solution:
                 solution[-1][1] = max(solution[-1][1], interval[1])
 
         return solution
+    
+    
+    #TC = O(nlogn)
+    #SC = O(1)
