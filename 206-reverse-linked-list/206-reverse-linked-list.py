@@ -14,3 +14,7 @@ class Solution:
             prev = head
             head = nextNode
         return prev
+    
+    
+    #TC = O(n)
+    #SC = O(1)
