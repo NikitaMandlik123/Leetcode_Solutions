@@ -5,6 +5,7 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        
         head = Sol = ListNode(0)
         while(list1 and list2):
         # and operation means only true when both lists are not null
@@ -25,3 +26,4 @@ class Solution:
     
     #TC = O(m+n)
     #SC = O(n)
+        
