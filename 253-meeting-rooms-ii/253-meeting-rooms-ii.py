@@ -17,3 +17,6 @@ class Solution:
                 count=count-1
             sol=max(sol,count)
         return sol
+    
+    #TC = O(nlogn)
+    #SC = O(n)
