@@ -7,26 +7,26 @@ class Solution:
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
         
     
-        dummy = ListNode(0)
-        dummy.next = head
+        newList = ListNode(0)
+        newList.next = head
     
-        pre = dummy
-        cur = dummy.next
+        prev = newList
+        curr = newList.next
     
-        # find the position
+        # find the position left (starting of the slice)
         for i in range(1,left):
-            cur = cur.next
-            pre = pre.next
+            curr = curr.next
+            prev = prev.next
     
     
-        # reverse
+        # reverse the part left to right
         for i in range(right-left):
-            temp = cur.next
-            cur.next = temp.next
-            temp.next  = pre.next
-            pre.next = temp
+            temp = curr.next
+            curr.next = temp.next
+            temp.next  = prev.next
+            prev.next = temp
     
-        return dummy.next
+        return newList.next
     
     #TC  = O(right)
     #SC = O(right)
