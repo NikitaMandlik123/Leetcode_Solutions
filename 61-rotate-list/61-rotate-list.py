@@ -29,4 +29,7 @@ class Solution:
         
         tail.next = head
         
+        #TC = O(n)
+        #SC = O(1)
+        
         return newHead
