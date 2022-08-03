@@ -27,3 +27,10 @@ class Solution:
 		# And `curr` is the next pointer in original linked list order
         head.next = self.reverseKGroup(curr, k)
         return prev
+    
+    
+    
+    #TC = O(n)
+    #SC = O(1)
+    
+    
