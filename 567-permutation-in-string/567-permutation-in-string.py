@@ -22,3 +22,6 @@ class Solution:
                 return True
         
         return False
+    
+    #TC = O(n)
+    #SC =O(n)
