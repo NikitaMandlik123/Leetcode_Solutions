@@ -13,4 +13,5 @@ class Solution:
         return 0 if res==float("inf") else res
     
     
-    
+    #TC = O(nlogn)
+    #SC = O(1)
