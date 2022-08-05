@@ -13,3 +13,6 @@ class Solution:
             res = max(res,r-l+1)
         return res
     
+    
+    #TC = O(n+26)
+    #SC = O(n)
