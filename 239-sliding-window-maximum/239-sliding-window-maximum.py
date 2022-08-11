@@ -21,3 +21,6 @@ class Solution:
             r = r+1
             
         return output
+    
+    #TC = O(nlogn)
+    #SC = O(n)
