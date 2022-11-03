@@ -10,7 +10,6 @@ class Solution:
             if s1[j]==t1[i]:
                 j+=1
                 i+=1
-                print(j,i) 
             else:
                 i+=1
             
